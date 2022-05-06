@@ -1,0 +1,21 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#canvas{
+    background-color:bisque;
+}
+h1,h4{
+    margin:5px;
+}
+#tooltip{
+    white-space: pre-wrap;
+    width:150px;
+    height:75px;
+    visibility: hidden;
+    text-align: center;
+    background-color: black;
+    color:white;
+}
